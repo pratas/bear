@@ -1,14 +1,14 @@
 <p align="center"><img src="imgs/bear.png"
 alt="BEAR with FALCON" height="222" border="0" /><br><br>
-Composition analysis of a Poolepynten <i>ursus maritimus</i> ancient sample with ~120K</p>
+<b>Composition analysis of a Poolepynten <i>ursus maritimus</i> ancient sample</b></p>
 <br>
 
-Download:
+<b>Download:</b>
 <pre>
 git clone https://github.com/pratas/bear.git
 cd bear/
 </pre>
-Run:
+<b>Run:</b>
 <pre>
 chmod +x *.sh
 ./runx.sh
@@ -16,7 +16,7 @@ chmod +x *.sh
 
 Attention: external links, namely from NCBI repositories, may be broken with time, although they are easily fixed.
 
-Dependencies:
+<b>Dependencies:</b>
 <pre>
 FALCON
 </pre>
