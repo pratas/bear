@@ -1,6 +1,6 @@
 <p align="center"><img src="imgs/bear.png"
-alt="BEAR with FALCON" height="172" border="0" /><br><br>
-Composition analysis of Poolepynten <i>ursus maritimus</i> ancient sample</p>
+alt="BEAR with FALCON" height="222" border="0" /><br><br>
+Composition analysis of a Poolepynten <i>ursus maritimus</i> ancient sample with ~120K</p>
 <br>
 
 Download:
