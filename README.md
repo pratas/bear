@@ -25,8 +25,7 @@ perl DownloadBacteria.pl
 perl DownloadFungi.pl
 ./DownloadMTV2.sh
 ./downloadPlastidV2.sh
-cat viruses.fa bacteria.fa archaea.fa fungi.fa mito.fna plast.fna \
-| tr ' ' '_' \
+cat viruses.fa bacteria.fa archaea.fa fungi.fa mito.fna plast.fna | tr ' ' '_' \
 | ./goose-extractreadbypattern complete_genome > DB.fa
 </pre>
 
