@@ -8,10 +8,23 @@ alt="BEAR with FALCON" height="222" border="0" /><br><br>
 git clone https://github.com/pratas/bear.git
 cd bear/
 </pre>
-<b>Run:</b>
+<b>Download a build PUM:</b>
 <pre>
 chmod +x *.sh
-./runx.sh
+GetBear.sh
+bunzip *.bz
+Trim.sh
+</pre>
+
+<b>Build the database (DB):</b>
+<pre>
+chmod +x *.sh
+perl DownloadViruses.pl
+perl DownloadArchaea.pl
+perl DownloadBacteria.pl
+perl DownloadFungi.pl
+./DownloadMTV2.sh
+./downloadPlastidV2.sh
 </pre>
 
 Attention: external links, namely from NCBI repositories, may be broken with time, although they are easily fixed.
