@@ -19,6 +19,7 @@ Attention: external links, namely from NCBI repositories, may be broken with tim
 <b>Dependencies:</b>
 <pre>
 FALCON
+AdapterRemoval
 </pre>
 Although they are installed and used automatically.
 
