@@ -11,9 +11,9 @@ cd bear/
 <b>Download a build PUM:</b>
 <pre>
 chmod +x *.sh
-GetBear.sh
+./GetBear.sh
 bunzip *.bz
-Trim.sh
+./Trim.sh
 </pre>
 
 <b>Build the database (DB):</b>
