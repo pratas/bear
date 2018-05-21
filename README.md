@@ -12,7 +12,7 @@ cd bear/
 <pre>
 chmod +x *.sh
 ./GetBear.sh
-bunzip *.bz
+gunzip *.gz
 ./Trim.sh
 </pre>
 
