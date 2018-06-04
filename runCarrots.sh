@@ -4,7 +4,7 @@ REFERENCE="carrots_others.fa";
 TARGET="PUM.fq";
 #
 GET_KESTREL=1;
-GET_FALCON=0;
+GET_FALCON=1;
 RUN_KESTREL=1;
 RUN_FALCON=1;
 #
