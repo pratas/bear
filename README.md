@@ -38,6 +38,7 @@ AdapterRemoval
 KESTREL
 GULL
 GOOSE
+GeCo
 </pre>
 Although they are installed and used automatically.
 
