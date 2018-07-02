@@ -31,7 +31,7 @@ fi
 #==============================================================================
 # RUN GULL
 if [[ "$RUN_GULL" -eq "1" ]]; then
-  cat $TOP_FILE | awk '{ if($3 > 6.0) print $1"\t"$2"\t"$3"\t"$4; }' \
+  cat $TOP_FILE | awk '{ if($3 > 1.0) print $1"\t"$2"\t"$3"\t"$4; }' \
   | awk '{ print $4;}' | tr '_' '\t' | awk '{ print $2;}' > GIS;
   idx=0;
   cat GIS | while read line
