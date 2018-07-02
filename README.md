@@ -35,6 +35,8 @@ Attention: external links, namely from NCBI repositories, may be broken with tim
 <pre>
 FALCON
 AdapterRemoval
+KESTREL
+GULL
 </pre>
 Although they are installed and used automatically.
 
