@@ -24,7 +24,7 @@ perl DownloadArchaea.pl
 perl DownloadBacteria.pl
 perl DownloadFungi.pl
 ./DownloadMTV2.sh
-./downloadPlastidV2.sh
+./DownloadPlastidV2.sh
 cat viruses.fa bacteria.fa archaea.fa fungi.fa mito.fna plast.fna | tr ' ' '_' \
 | ./goose-extractreadbypattern complete_genome > DB.fa
 </pre>
@@ -37,6 +37,7 @@ FALCON
 AdapterRemoval
 KESTREL
 GULL
+GOOSE
 </pre>
 Although they are installed and used automatically.
 
