@@ -29,6 +29,19 @@ cat viruses.fa bacteria.fa archaea.fa fungi.fa mito.fna plast.fna | tr ' ' '_' \
 | ./goose-extractreadbypattern complete_genome > DB.fa
 </pre>
 
+<b>Ancient DNA authentication scripts:</b>
+<pre>
+runAuthCHIV14.sh               
+runAuthGeobacillus.sh  
+runAuthUrsus.sh
+runAuthCarrot.sh               
+runAuthTomato.sh
+runAuthHaloTrap.sh     
+runAuthCutibacterium.sh        
+runAuthRetrovirus.sh
+runAuthFlavobacteriumPhage.sh  
+</pre>
+
 Attention: external links, namely from NCBI repositories, may be broken with time, although they are easily fixed.
 
 <b>Dependencies:</b>
